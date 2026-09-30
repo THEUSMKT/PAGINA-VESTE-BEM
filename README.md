@@ -35,7 +35,7 @@ Estes dados são **de exemplo** e precisam ser confirmados com a loja. Os númer
 | 3 | **Valor do aluguel** | linhas 603–605 (comentário `CONFIRMAR VALOR COM A LOJA`) | "a partir de R$ 350" (tirado de um post antigo do Instagram) |
 | 4 | **Quantidade de trajes no acervo** | linhas 617–618: troque o `data-count="300"` **e** o texto `300` | 300+ |
 | 5 | **Anos de atuação da loja** | linhas 626–627: troque o `data-count="10"` **e** o texto `10` | 10 |
-| 6 | **Domínio final do site** | linha 29 (canonical), 36–37 (Open Graph), 44 (Twitter) e 64–66 (JSON-LD) | `https://www.vestebemsaoleopoldo.com.br/` |
+| 6 | **Domínio próprio** (se a loja tiver) | linha 29 (canonical), 36–37 (Open Graph), 44 (Twitter) e 64–66 (JSON-LD) | Hoje aponta para o GitHub Pages: `https://theusmkt.github.io/PAGINA-VESTE-BEM/` |
 
 > **Não publique depoimento inventado.** Se os depoimentos reais não chegarem a tempo, apague o bloco das linhas 658–682 inteiro. A seção continua de pé com a foto, a legenda e o botão do Instagram.
 
