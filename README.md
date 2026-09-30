@@ -16,7 +16,8 @@ favicon.svg        ícone da aba
 ## Como abrir e publicar
 
 - **Conferir:** abra o `index.html` com dois cliques. Funciona direto do disco, sem servidor.
-- **Publicar:** arraste a pasta do projeto para [netlify.com/drop](https://app.netlify.com/drop). Não há etapa de build.
+- **Publicar no GitHub Pages:** o workflow `.github/workflows/pages.yml` publica o site a cada push. Na primeira vez, ative em *Settings → Pages → Build and deployment → Source: GitHub Actions*. O endereço fica `https://theusmkt.github.io/PAGINA-VESTE-BEM/`.
+- **Publicar no Netlify:** arraste a pasta do projeto para [netlify.com/drop](https://app.netlify.com/drop). Não há etapa de build.
 
 Bibliotecas carregadas por CDN (precisam de internet): GSAP 3.12.5 + ScrollTrigger (cdnjs), Lenis 1.3.4 (jsDelivr) e as fontes Cormorant Garamond e Jost (Google Fonts).
 Se alguma CDN falhar, o site continua inteiro e legível, só sem as animações.
